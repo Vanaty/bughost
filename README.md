@@ -1,8 +1,8 @@
 # Airtel Tv Akama To Net
 ## Installation termux
-0. Install dependences.<br>
+1. Install dependences.<br>
    ```console
-   pkg install -y git openssh-client sshpass netcat-openbsd python3 python3-pip
+   pkg install -y git openssh-client sshpass netcat-openbsd python3 python3-pip & pip install configparser
    ```
 2. Clone the repository.<br>
 
@@ -10,33 +10,27 @@
    git clone https://github.com/Vanaty/bughost.git
    ```
 
-2. Ask your username password and Add it to <code> Config.ini </code><br>
+3. Ask your username password and Add it to <code> Config.ini </code></br>
 
 
    <a href="https://www.facebook.com/profile.php?id=100076277132424">Termux Kaly FB</a>
 
 
-3. Run inject file. 
+4. Run inject file. 
 
    ```console
     python3 inject.py
    ```
 
-4. Run <code>ssh.py</code>
+5. Run <code>ssh.py</code>
+   ```console
+    python3 ssh.py
+   ```
+6. Install <a href="https://play.google.com/store/apps/details?id=com.newtoolsworks.tun2tap">Tun2Tap</a> from Play store
 
-<br>
+7. Launch <code>Tun2Tap</code> and go to <code>Custom Config</code> and <code>Enable Bypass VPN </code> for Termux 
 
-  ```console
-   python3 ssh.py
-  ```
-
-5. Install <a href="https://play.google.com/store/apps/details?id=com.newtoolsworks.tun2tap">Tun2Tap</a> from Play store<br>
-
-
-
-6. Launch <code>Tun2Tap</code> and go to <code>Custom Config</code> and <code>Enable Bypass VPN </code> for Termux 
-
-7. Add Socks5 proxy and Enjoy!<br>
+8. Add Socks5 proxy and Enjoy!
 
    <code>host: localhost/127.0.0.1 </code><br>
 
