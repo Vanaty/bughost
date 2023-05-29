@@ -2,7 +2,7 @@
 ## Installation termux
 1. Install dependences.<br>
    ```console
-   pkg install -y git openssh-client sshpass netcat-openbsd python3 python3-pip & pip install configparser
+   pkg install -y git openssh-client sshpass netcat-openbsd python & pip install configparser
    ```
 2. Clone the repository.<br>
 
