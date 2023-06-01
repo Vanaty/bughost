@@ -1,4 +1,4 @@
-# Airtel Tv Akama To Net
+# Http mena kely to Net
 ## Installation termux
 1. Install dependences.<br>
    ```console
